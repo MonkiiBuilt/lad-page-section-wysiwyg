@@ -16,7 +16,7 @@ class PageSectionWysiwyg extends PageSection
 
     public function getDecorator()
     {
-        $decoratorName = \MonkiiBuilt\LaravelPageSectionsText\PageSectionWysiwygDecorator::class;
+        $decoratorName = \MonkiiBuilt\LadPageSectionWysiwyg\Decorator::class;
         return new $decoratorName($this);
     }
 }

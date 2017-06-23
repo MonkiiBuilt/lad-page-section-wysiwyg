@@ -20,7 +20,7 @@ class ServiceProvider extends BaseServiceProvider
     {
         $packageRegistry->registerPackage('MonkiiBuilt\LadPageSectionWysiwyg');
 
-        PageSection::addSingleTableSubclass(PageSectionText::class);
+        PageSection::addSingleTableSubclass(PageSectionWysiwyg::class);
 
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'page-sections-wysiwyg');
 
