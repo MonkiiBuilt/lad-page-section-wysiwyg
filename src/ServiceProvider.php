@@ -10,7 +10,7 @@ namespace MonkiiBuilt\LadPageSectionWysiwyg;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use MonkiiBuilt\LaravelPages\Models\PageSection;
-use MonkiiBuilt\LadPageSectionsWysiwyg\Models\PageSectionWysiwyg;
+use MonkiiBuilt\LadPageSectionWysiwyg\Models\PageSectionWysiwyg;
 
 class ServiceProvider extends BaseServiceProvider
 {
