@@ -10,7 +10,7 @@ namespace MonkiiBuilt\LadPageSectionWysiwyg;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use MonkiiBuilt\LaravelPages\Models\PageSection;
-use MonkiiBuilt\LaravelPageSectionsWysiwyg\Models\PageSectionWysiwyg;
+use MonkiiBuilt\LadPageSectionsWysiwyg\Models\PageSectionWysiwyg;
 
 class ServiceProvider extends BaseServiceProvider
 {
@@ -22,7 +22,7 @@ class ServiceProvider extends BaseServiceProvider
 
         PageSection::addSingleTableSubclass(PageSectionWysiwyg::class);
 
-        $this->loadViewsFrom(__DIR__.'/../resources/views', 'page-sections-wysiwyg');
+        $this->loadViewsFrom(__DIR__.'/../resources/views', 'page-section-wysiwyg');
 
     }
 }
